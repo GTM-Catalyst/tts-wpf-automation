@@ -1,0 +1,366 @@
+{
+  "__type": "ArtOfTest.WebAii.Design.ProjectModel.Test",
+  "__value": {
+    "DomStatesCounter": {},
+    "WebKitExecutionDelay": 0,
+    "ReuseAppWindow": 0,
+    "ProfilerResultsDirectory": null,
+    "ProfilerBenchmarkResultsFilePath": null,
+    "ProfilerBenchmarkResultsId": "00000000-0000-0000-0000-000000000000",
+    "ProfilerConfigurationId": "00000000-0000-0000-0000-000000000000",
+    "ProfilerConfigurations": {},
+    "CurrentReferences": [
+      "System",
+      "System.Core",
+      "ArtOfTest.WebAii, Version=2021.1.330.0, Culture=neutral, PublicKeyToken=4fd5f65be123776c",
+      "ArtOfTest.WebAii.Design, Version=2021.1.330.0, Culture=neutral, PublicKeyToken=4fc62bbc3827ab1d",
+      "Telerik.WebAii.Controls.Html, Version=2021.1.330.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.WebAii.Controls.Xaml, Version=2021.1.330.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.WebAii.Controls.Xaml.Wpf, Version=2021.1.330.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.TestingFramework.Controls.KendoUI, Version=2021.1.330.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.TestingFramework.Controls.KendoUI.Angular, Version=2021.1.330.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.TestingFramework.Controls.TelerikUI.Blazor, Version=2021.1.330.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.TestStudio.Translators.Common, Version=2021.1.330.0, Culture=neutral, PublicKeyToken=528163f3e645de45"
+    ],
+    "Steps": {
+      "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
+      "__value": [
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "5377057b-4c2b-49e0-a657-40329afc03e0",
+            "Description": "Execute test 'VerifyAppVersion'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
+              "__value": {
+                "WaitOnElementsTimeout": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": false,
+                "SearchByImageFirst": 0,
+                "TestName": "VerifyAppVersion",
+                "TestPath": "CheckAppVersion\\VerifyAppVersion.tstest",
+                "TestUniqueId": "5504d724-1237-4584-9625-1de21f0e0020",
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 1,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "Verify_Current_Dateix2gfft5.zfl",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "ce9dad3e-1d30-46e9-8fe7-61758bb744c5",
+            "Description": "Extract 'DateTextTextblock' text into DataBindVariable $(DateTextVariable)",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Silverlight.Descriptors.TextBlockVerificationDescriptor",
+              "__value": {
+                "Comparison": "Same",
+                "Value": "11-05-2021",
+                "Property": {
+                  "__type": "ArtOfTest.WebAii.Silverlight.AutomationProperty",
+                  "__value": {
+                    "Name": "Text",
+                    "Index": null,
+                    "TypeName": "System.String",
+                    "IsAttachedProperty": false,
+                    "AttachedPropertyOwner": null
+                  }
+                },
+                "Comparer": {
+                  "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Silverlight.Descriptors.StringComparer",
+                  "__value": {}
+                },
+                "SearchByImageFirst": 0,
+                "TechnologyType": 6,
+                "WaitForNoMotion": true,
+                "WaitForNoMotionCheckInterval": 500,
+                "VirtualizingContainerOffset": 0.0,
+                "DataBindVariableName": "DateTextVariable",
+                "Timeout": 30000,
+                "CheckInterval": 500,
+                "EnsureStateIsCurrent": false,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
+                  }
+                },
+                "Elements": {
+                  "TargetKey1": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "TargetKey1",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.WpfAppNode",
+                        "__value": {
+                          "ExecutablePath": "C:\\Users\\abhis\\Downloads\\TestStudio-Training\\WPF-AUT\\WPF-AUT.exe",
+                          "ModuleName": "WPF-AUT.exe",
+                          "FriendlyName": "WPF-AUT.exe"
+                        }
+                      },
+                      "Frame": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.WpfWindowNode",
+                        "__value": {
+                          "Caption": "WPF Calculator",
+                          "FriendlyName": "WPF Calculator"
+                        }
+                      },
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "6Qm8FKa+8itYTZBkig+TME5/nXs=",
+                          "NodeKind": 5,
+                          "TechnologyType": 4,
+                          "Name": "DateTextTextblock",
+                          "FindExpressions": [
+                            {
+                              "Key": 4,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Silverlight.XamlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Silverlight.XamlFindClause",
+                                      "__value": {
+                                        "Clause": "Name=DateText"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Silverlight.XamlFindClause",
+                                      "__value": {
+                                        "Clause": "XamlTag=textblock"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/mainwindow[1]/border[1]/adornerdecorator[1]/contentpresenter[1]/stackpanel[1]/textblock[1]",
+                          "ImageSearchClauses": [],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.Xaml.Wpf.TextBlock",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 4,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 16,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 2,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "Verify_Current_Dateorh4tbdi.gcq",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "c5b05834-0320-4d45-aeda-726acaa1659b",
+            "Description": "New Coded Step",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
+              "__value": {
+                "Code": "            Utilities u = new  Utilities();\r\n            Assert.IsTrue(Applications.WPFAUTexe.WPF_Calculator.DateTextTextblock.Text == u.GetCurrentDate());\r\n            Assert.IsTrue(Convert.ToString(GetExtractedValue(\"DateTextVariable\")) == u.GetCurrentDate());\r\n            // Hoist the variable\r\n            u.extractedDate = Convert.ToString(GetExtractedValue(\"DateTextVariable\"));",
+                "RequiresSilverlight": false,
+                "WaitOnElements": true,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "SearchByImageFirst": 0,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 3,
+            "Id": "Verify_Current_Date_CodedStep",
+            "StepState": 1,
+            "ContinueOnFailure": false,
+            "StepImageKey": "Verify_Current_Dateym0zsbqb.zie",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        }
+      ]
+    },
+    "IndependentDescriptors": [
+      {
+        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+        "__value": {
+          "Name": "",
+          "Region": null,
+          "Page": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.WpfAppNode",
+            "__value": {
+              "ExecutablePath": "C:\\Users\\abhis\\Downloads\\TestStudio-Training\\WPF-AUT\\WPF-AUT.exe",
+              "ModuleName": "WPF-AUT.exe",
+              "FriendlyName": "WPF-AUT.exe"
+            }
+          },
+          "Frame": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.WpfWindowNode",
+            "__value": {
+              "Caption": "WPF Calculator",
+              "FriendlyName": "WPF Calculator"
+            }
+          },
+          "FindExpression": {
+            "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+            "__value": {
+              "uniqueKey": "6Qm8FKa+8itYTZBkig+TME5/nXs=",
+              "NodeKind": 5,
+              "TechnologyType": 4,
+              "Name": "DateTextTextblock",
+              "FindExpressions": [
+                {
+                  "Key": 4,
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Silverlight.XamlFindExpression",
+                    "__value": {
+                      "Clauses": [
+                        {
+                          "__type": "ArtOfTest.WebAii.Silverlight.XamlFindClause",
+                          "__value": {
+                            "Clause": "Name=DateText"
+                          }
+                        },
+                        {
+                          "__type": "ArtOfTest.WebAii.Silverlight.XamlFindClause",
+                          "__value": {
+                            "Clause": "XamlTag=textblock"
+                          }
+                        }
+                      ],
+                      "Constraints": [],
+                      "ChainStops": []
+                    }
+                  }
+                }
+              ],
+              "BackupSearchClause": "/mainwindow[1]/border[1]/adornerdecorator[1]/contentpresenter[1]/stackpanel[1]/textblock[1]",
+              "ImageSearchClauses": [],
+              "DataBindingExpressions": {}
+            }
+          },
+          "HtmlControlType": "ArtOfTest.WebAii.Controls.Xaml.Wpf.TextBlock",
+          "IsIndependent": true,
+          "DomStateKey": "",
+          "TechnologyType": 4,
+          "Version": 200
+        }
+      }
+    ],
+    "HtmlDescription": "",
+    "SilverlightEnabled": false,
+    "IsSilverlightApp": false,
+    "SilverlightAppWebUrl": "",
+    "SilverlightAppLocalDirectory": "",
+    "SilverlightAppRecordLocal": false,
+    "SilverlightAppOriginUri": null,
+    "WpfAppPath": null,
+    "UseDefaultWpfAppPath": true,
+    "TestAssembly": "DemoCalculatorTest.dll",
+    "TestAssemblyPath": "bin",
+    "TestClass": "DemoCalculatorTest.Verify_Current_Date",
+    "IsManual": false,
+    "ResourceFilePath": "CheckDate\\Verify_Current_Date.resx",
+    "ElementImageStoreFilePath": "CheckDate\\Verify_Current_Date.imgstore",
+    "HasCodeBehind": true,
+    "DataInfo": {
+      "__type": "ArtOfTest.Common.Design.Data.DataInfo",
+      "__value": {
+        "ConnectionString": "",
+        "DefaultToGrid": true,
+        "DataRange": "",
+        "LoadRecordsCount": null,
+        "DataTableName": "",
+        "DataProvider": "",
+        "DataEnabled": true,
+        "HasBuiltinGrid": false,
+        "DataType": 4,
+        "BuiltInData": null,
+        "BuiltInDocumentKey": null,
+        "TSQL": ""
+      }
+    },
+    "VSProperties": {},
+    "DeploymentItems": [],
+    "IsTestFragment": false,
+    "StopTestListOnFailure": false,
+    "InheritParentDataSource": false,
+    "BrowserType": 0,
+    "QcId": 0,
+    "QcFilePath": null,
+    "QcTestVersionStamp": 0,
+    "CustomProperty1": "WEEKLY",
+    "TestLinks": [],
+    "Description": "",
+    "Name": "Verify_Current_Date",
+    "Owner": "abhishek@gtmcatalyst.com",
+    "Path": "CheckDate\\Verify_Current_Date.tstest",
+    "Priority": 0,
+    "TestType": 1,
+    "UniqueId": "e07cbd69-c70c-4619-87b6-057964c9dbfd",
+    "Id": "e07cbd69-c70c-4619-87b6-057964c9dbfd",
+    "ProjectId": "714c31be-65c5-4513-b9e3-593f2aee4320",
+    "Version": 200
+  }
+}

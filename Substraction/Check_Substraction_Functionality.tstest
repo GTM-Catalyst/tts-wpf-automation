@@ -1,0 +1,978 @@
+{
+  "__type": "ArtOfTest.WebAii.Design.ProjectModel.Test",
+  "__value": {
+    "DomStatesCounter": {},
+    "WebKitExecutionDelay": 0,
+    "ReuseAppWindow": 0,
+    "ProfilerResultsDirectory": null,
+    "ProfilerBenchmarkResultsFilePath": null,
+    "ProfilerBenchmarkResultsId": "00000000-0000-0000-0000-000000000000",
+    "ProfilerConfigurationId": "00000000-0000-0000-0000-000000000000",
+    "ProfilerConfigurations": {},
+    "CurrentReferences": [
+      "System",
+      "System.Core",
+      "ArtOfTest.WebAii, Version=2021.1.330.0, Culture=neutral, PublicKeyToken=4fd5f65be123776c",
+      "ArtOfTest.WebAii.Design, Version=2021.1.330.0, Culture=neutral, PublicKeyToken=4fc62bbc3827ab1d",
+      "Telerik.WebAii.Controls.Html, Version=2021.1.330.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.WebAii.Controls.Xaml, Version=2021.1.330.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.WebAii.Controls.Xaml.Wpf, Version=2021.1.330.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.TestingFramework.Controls.KendoUI, Version=2021.1.330.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.TestingFramework.Controls.KendoUI.Angular, Version=2021.1.330.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.TestingFramework.Controls.TelerikUI.Blazor, Version=2021.1.330.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.TestStudio.Translators.Common, Version=2021.1.330.0, Culture=neutral, PublicKeyToken=528163f3e645de45"
+    ],
+    "Steps": {
+      "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
+      "__value": [
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "a9046e0f-9026-4e78-8af7-46c7d2f86e27",
+            "Description": "Execute test 'VerifyAppVersion'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
+              "__value": {
+                "WaitOnElementsTimeout": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": false,
+                "SearchByImageFirst": 0,
+                "TestName": "VerifyAppVersion",
+                "TestPath": "CheckAppVersion\\VerifyAppVersion.tstest",
+                "TestUniqueId": "5504d724-1237-4584-9625-1de21f0e0020",
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 1,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "Check_Substraction_Functionality3desjb1q.eoo",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "1f58222a-2e70-41ca-8d8c-4e8cb71c25cf",
+            "Description": "Type '70' into FirstNumberTextbox",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Silverlight.Descriptors.TextBoxSetTextActionDescriptor",
+              "__value": {
+                "SimulateRealUser": true,
+                "TypedText": "70",
+                "RecordedTextContent": "50",
+                "TimeBetweenKeypresses": 10,
+                "KeyHoldTime": 100,
+                "FireKeyEvents": false,
+                "ClearCurrentText": true,
+                "SearchByImageFirst": 0,
+                "TechnologyType": 6,
+                "WaitForNoMotion": true,
+                "WaitForNoMotionCheckInterval": 500,
+                "VirtualizingContainerOffset": 0.0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.WpfAppNode",
+                        "__value": {
+                          "ExecutablePath": "C:\\Users\\abhis\\Downloads\\TestStudio-Training\\WPF-AUT\\WPF-AUT.exe",
+                          "ModuleName": "WPF-AUT.exe",
+                          "FriendlyName": "WPF-AUT.exe"
+                        }
+                      },
+                      "Frame": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.WpfWindowNode",
+                        "__value": {
+                          "Caption": "WPF Calculator",
+                          "FriendlyName": "WPF Calculator"
+                        }
+                      },
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "wdN9Hgi9OcakYk+Zdqxdph1hNcY=",
+                          "NodeKind": 5,
+                          "TechnologyType": 4,
+                          "Name": "FirstNumberTextbox",
+                          "FindExpressions": [
+                            {
+                              "Key": 4,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Silverlight.XamlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Silverlight.XamlFindClause",
+                                      "__value": {
+                                        "Clause": "XamlTag=textbox"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Silverlight.XamlFindClause",
+                                      "__value": {
+                                        "Clause": "Name=FirstNumber"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/mainwindow[1]/border[1]/adornerdecorator[1]/contentpresenter[1]/stackpanel[1]/textbox[2]",
+                          "ImageSearchClauses": [],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.Xaml.ITextBox",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 4,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 2,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "Check_Addition_Funcationalitydnhjn33y.etl",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "24e51f34-803f-4223-88a3-47b9bd266098",
+            "Description": "Click on SecondTextBoxEnabledCheckbox",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Xaml.Descriptors.CheckBoxActionDescriptor",
+              "__value": {
+                "IsChecked": false,
+                "SearchByImageFirst": 0,
+                "TechnologyType": 6,
+                "WaitForNoMotion": true,
+                "WaitForNoMotionCheckInterval": 500,
+                "VirtualizingContainerOffset": 0.0,
+                "SimulateRealUser": true,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
+                  }
+                },
+                "Elements": {
+                  "checkBox": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "checkBox",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.WpfAppNode",
+                        "__value": {
+                          "ExecutablePath": "C:\\Users\\abhis\\Downloads\\TestStudio-Training\\WPF-AUT\\WPF-AUT.exe",
+                          "ModuleName": "WPF-AUT.exe",
+                          "FriendlyName": "WPF-AUT.exe"
+                        }
+                      },
+                      "Frame": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.WpfWindowNode",
+                        "__value": {
+                          "Caption": "WPF Calculator",
+                          "FriendlyName": "WPF Calculator"
+                        }
+                      },
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "AHCX/hUJCRjRyZ3L3Tj6fPedy90=",
+                          "NodeKind": 5,
+                          "TechnologyType": 4,
+                          "Name": "SecondTextBoxEnabledCheckbox",
+                          "FindExpressions": [
+                            {
+                              "Key": 4,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Silverlight.XamlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Silverlight.XamlFindClause",
+                                      "__value": {
+                                        "Clause": "XamlTag=checkbox"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Silverlight.XamlFindClause",
+                                      "__value": {
+                                        "Clause": "XamlTag=textblock"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Silverlight.XamlFindClause",
+                                      "__value": {
+                                        "Clause": "TextContent=~Enabled"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": [
+                                    1
+                                  ]
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/mainwindow[1]/border[1]/adornerdecorator[1]/contentpresenter[1]/stackpanel[1]/checkbox[1]/grid[1]/contentpresenter[1]/textblock[1]",
+                          "ImageSearchClauses": [],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.Xaml.ICheckBox",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 4,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": false,
+            "Order": 3,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "Check_Substraction_Functionalitypaxsjpdh.pc4",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "6d823917-0f34-461e-b5d0-848816d4b513",
+            "Description": "Type '60' into SecondNumberTextbox",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Silverlight.Descriptors.TextBoxSetTextActionDescriptor",
+              "__value": {
+                "SimulateRealUser": true,
+                "TypedText": "60",
+                "RecordedTextContent": "60",
+                "TimeBetweenKeypresses": 10,
+                "KeyHoldTime": 100,
+                "FireKeyEvents": false,
+                "ClearCurrentText": true,
+                "SearchByImageFirst": 0,
+                "TechnologyType": 6,
+                "WaitForNoMotion": true,
+                "WaitForNoMotionCheckInterval": 500,
+                "VirtualizingContainerOffset": 0.0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.WpfAppNode",
+                        "__value": {
+                          "ExecutablePath": "C:\\Users\\abhis\\Downloads\\TestStudio-Training\\WPF-AUT\\WPF-AUT.exe",
+                          "ModuleName": "WPF-AUT.exe",
+                          "FriendlyName": "WPF-AUT.exe"
+                        }
+                      },
+                      "Frame": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.WpfWindowNode",
+                        "__value": {
+                          "Caption": "WPF Calculator",
+                          "FriendlyName": "WPF Calculator"
+                        }
+                      },
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "7XBSLuJDBEkQX7HQLzrUnr0IDHw=",
+                          "NodeKind": 5,
+                          "TechnologyType": 4,
+                          "Name": "SecondNumberTextbox",
+                          "FindExpressions": [
+                            {
+                              "Key": 4,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Silverlight.XamlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Silverlight.XamlFindClause",
+                                      "__value": {
+                                        "Clause": "Name=SecondNumber"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Silverlight.XamlFindClause",
+                                      "__value": {
+                                        "Clause": "XamlTag=textbox"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/mainwindow[1]/border[1]/adornerdecorator[1]/contentpresenter[1]/stackpanel[1]/textbox[2]",
+                          "ImageSearchClauses": [],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.Xaml.Wpf.TextBox",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 4,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 4,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "Check_Addition_Funcationalityktusejnj.ipw",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "c237d341-a724-4ac2-9f2e-74932b4ff4cf",
+            "Description": "Click SubstractButtonButton",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Silverlight.Descriptors.ButtonActionDescriptor",
+              "__value": {
+                "Offset": {
+                  "__type": "ArtOfTest.Common.Design.ActionPoint",
+                  "__value": "465, 6, Pixel, TopLeftCorner"
+                },
+                "UseOffset": true,
+                "SimulateRealUser": true,
+                "SearchByImageFirst": 0,
+                "TechnologyType": 6,
+                "WaitForNoMotion": true,
+                "WaitForNoMotionCheckInterval": 500,
+                "VirtualizingContainerOffset": 0.0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.WpfAppNode",
+                        "__value": {
+                          "ExecutablePath": "C:\\Users\\abhis\\Downloads\\TestStudio-Training\\WPF-AUT\\WPF-AUT.exe",
+                          "ModuleName": "WPF-AUT.exe",
+                          "FriendlyName": "WPF-AUT.exe"
+                        }
+                      },
+                      "Frame": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.WpfWindowNode",
+                        "__value": {
+                          "Caption": "WPF Calculator",
+                          "FriendlyName": "WPF Calculator"
+                        }
+                      },
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "SS3Ax72owIkpOh3nxj97ijtiskA=",
+                          "NodeKind": 5,
+                          "TechnologyType": 4,
+                          "Name": "SubstractButtonButton",
+                          "FindExpressions": [
+                            {
+                              "Key": 4,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Silverlight.XamlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Silverlight.XamlFindClause",
+                                      "__value": {
+                                        "Clause": "AutomationId=Substract_Button"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Silverlight.XamlFindClause",
+                                      "__value": {
+                                        "Clause": "XamlTag=button"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/mainwindow[1]/border[1]/adornerdecorator[1]/contentpresenter[1]/stackpanel[1]/button[3]",
+                          "ImageSearchClauses": [],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.Xaml.Wpf.Button",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 4,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 5,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "Check_Substraction_Functionality5q4hrmsq.dmq",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "1523786c-82c6-4fa7-abdb-43c84ef4b5ff",
+            "Description": "Verify ResultsBlockTextblock's visibility is Visible",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Silverlight.Descriptors.VisibilityVerificationDescriptor",
+              "__value": {
+                "Visibility": 0,
+                "WaitForNoMotion": false,
+                "WaitForNoMotionCheckInterval": 0,
+                "SearchByImageFirst": 0,
+                "TechnologyType": 6,
+                "VirtualizingContainerOffset": 0.0,
+                "DataBindVariableName": null,
+                "Timeout": 30000,
+                "CheckInterval": 500,
+                "EnsureStateIsCurrent": false,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "TargetKey1": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "TargetKey1",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.WpfAppNode",
+                        "__value": {
+                          "ExecutablePath": "C:\\Users\\abhis\\Downloads\\TestStudio-Training\\WPF-AUT\\WPF-AUT.exe",
+                          "ModuleName": "WPF-AUT.exe",
+                          "FriendlyName": "WPF-AUT.exe"
+                        }
+                      },
+                      "Frame": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.WpfWindowNode",
+                        "__value": {
+                          "Caption": "WPF Calculator",
+                          "FriendlyName": "WPF Calculator"
+                        }
+                      },
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "NUtdzHivqxBPet3wphqkUxBsGi0=",
+                          "NodeKind": 5,
+                          "TechnologyType": 4,
+                          "Name": "ResultsBlockTextblock",
+                          "FindExpressions": [
+                            {
+                              "Key": 4,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Silverlight.XamlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Silverlight.XamlFindClause",
+                                      "__value": {
+                                        "Clause": "Name=ResultsBlock"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Silverlight.XamlFindClause",
+                                      "__value": {
+                                        "Clause": "XamlTag=textblock"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/mainwindow[1]/border[1]/adornerdecorator[1]/contentpresenter[1]/stackpanel[1]/textblock[3]",
+                          "ImageSearchClauses": [],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.Xaml.Wpf.TextBlock",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 4,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 2,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 6,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "Check_Substraction_Functionalityb22a2xug.w5q",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "1f60137b-01c9-4368-a39a-8d96298981d1",
+            "Description": "Verify 'ResultsBlockTextblock' text NotSame '100'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Silverlight.Descriptors.TextBlockVerificationDescriptor",
+              "__value": {
+                "Comparison": "NotSame",
+                "Value": "100",
+                "Property": {
+                  "__type": "ArtOfTest.WebAii.Silverlight.AutomationProperty",
+                  "__value": {
+                    "Name": "Text",
+                    "Index": null,
+                    "TypeName": "System.String",
+                    "IsAttachedProperty": false,
+                    "AttachedPropertyOwner": null
+                  }
+                },
+                "Comparer": {
+                  "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Silverlight.Descriptors.StringComparer",
+                  "__value": {}
+                },
+                "SearchByImageFirst": 0,
+                "TechnologyType": 6,
+                "WaitForNoMotion": true,
+                "WaitForNoMotionCheckInterval": 500,
+                "VirtualizingContainerOffset": 0.0,
+                "DataBindVariableName": null,
+                "Timeout": 30000,
+                "CheckInterval": 500,
+                "EnsureStateIsCurrent": false,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
+                  }
+                },
+                "Elements": {
+                  "TargetKey1": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "TargetKey1",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.WpfAppNode",
+                        "__value": {
+                          "ExecutablePath": "C:\\Users\\abhis\\Downloads\\TestStudio-Training\\WPF-AUT\\WPF-AUT.exe",
+                          "ModuleName": "WPF-AUT.exe",
+                          "FriendlyName": "WPF-AUT.exe"
+                        }
+                      },
+                      "Frame": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.WpfWindowNode",
+                        "__value": {
+                          "Caption": "WPF Calculator",
+                          "FriendlyName": "WPF Calculator"
+                        }
+                      },
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "NUtdzHivqxBPet3wphqkUxBsGi0=",
+                          "NodeKind": 5,
+                          "TechnologyType": 4,
+                          "Name": "ResultsBlockTextblock",
+                          "FindExpressions": [
+                            {
+                              "Key": 4,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Silverlight.XamlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Silverlight.XamlFindClause",
+                                      "__value": {
+                                        "Clause": "Name=ResultsBlock"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Silverlight.XamlFindClause",
+                                      "__value": {
+                                        "Clause": "XamlTag=textblock"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/mainwindow[1]/border[1]/adornerdecorator[1]/contentpresenter[1]/stackpanel[1]/textblock[3]",
+                          "ImageSearchClauses": [],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.Xaml.Wpf.TextBlock",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 4,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 2,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 7,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "Check_Substraction_Functionality3mxgqhwz.cw5",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "795a3fc1-64cf-436e-964d-a7bc8755a929",
+            "Description": "Verify 'ResultsBlockTextblock' text Same '10'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Silverlight.Descriptors.TextBlockVerificationDescriptor",
+              "__value": {
+                "Comparison": "Same",
+                "Value": "10",
+                "Property": {
+                  "__type": "ArtOfTest.WebAii.Silverlight.AutomationProperty",
+                  "__value": {
+                    "Name": "Text",
+                    "Index": null,
+                    "TypeName": "System.String",
+                    "IsAttachedProperty": false,
+                    "AttachedPropertyOwner": null
+                  }
+                },
+                "Comparer": {
+                  "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Silverlight.Descriptors.StringComparer",
+                  "__value": {}
+                },
+                "SearchByImageFirst": 0,
+                "TechnologyType": 6,
+                "WaitForNoMotion": true,
+                "WaitForNoMotionCheckInterval": 500,
+                "VirtualizingContainerOffset": 0.0,
+                "DataBindVariableName": null,
+                "Timeout": 30000,
+                "CheckInterval": 500,
+                "EnsureStateIsCurrent": false,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
+                  }
+                },
+                "Elements": {
+                  "TargetKey1": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "TargetKey1",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.WpfAppNode",
+                        "__value": {
+                          "ExecutablePath": "C:\\Users\\abhis\\Downloads\\TestStudio-Training\\WPF-AUT\\WPF-AUT.exe",
+                          "ModuleName": "WPF-AUT.exe",
+                          "FriendlyName": "WPF-AUT.exe"
+                        }
+                      },
+                      "Frame": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.WpfWindowNode",
+                        "__value": {
+                          "Caption": "WPF Calculator",
+                          "FriendlyName": "WPF Calculator"
+                        }
+                      },
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "NUtdzHivqxBPet3wphqkUxBsGi0=",
+                          "NodeKind": 5,
+                          "TechnologyType": 4,
+                          "Name": "ResultsBlockTextblock",
+                          "FindExpressions": [
+                            {
+                              "Key": 4,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Silverlight.XamlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Silverlight.XamlFindClause",
+                                      "__value": {
+                                        "Clause": "Name=ResultsBlock"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Silverlight.XamlFindClause",
+                                      "__value": {
+                                        "Clause": "XamlTag=textblock"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/mainwindow[1]/border[1]/adornerdecorator[1]/contentpresenter[1]/stackpanel[1]/textblock[3]",
+                          "ImageSearchClauses": [],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.Xaml.Wpf.TextBlock",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 4,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 2,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 8,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "Check_Addition_Funcationalitylpn2n1g5.yve",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        }
+      ]
+    },
+    "IndependentDescriptors": [],
+    "HtmlDescription": "",
+    "SilverlightEnabled": false,
+    "IsSilverlightApp": false,
+    "SilverlightAppWebUrl": "",
+    "SilverlightAppLocalDirectory": "",
+    "SilverlightAppRecordLocal": false,
+    "SilverlightAppOriginUri": null,
+    "WpfAppPath": "C:\\Users\\abhis\\Downloads\\TestStudio-Training\\WPF-AUT\\WPF-AUT.exe",
+    "UseDefaultWpfAppPath": false,
+    "TestAssembly": "DemoCalculatorTest.dll",
+    "TestAssemblyPath": "bin",
+    "TestClass": "",
+    "IsManual": false,
+    "ResourceFilePath": "Substraction\\Check_Substraction_Functionality.resx",
+    "ElementImageStoreFilePath": "Substraction\\Check_Substraction_Functionality.imgstore",
+    "HasCodeBehind": false,
+    "DataInfo": {
+      "__type": "ArtOfTest.Common.Design.Data.DataInfo",
+      "__value": {
+        "ConnectionString": "",
+        "DefaultToGrid": true,
+        "DataRange": "",
+        "LoadRecordsCount": null,
+        "DataTableName": "",
+        "DataProvider": "",
+        "DataEnabled": true,
+        "HasBuiltinGrid": false,
+        "DataType": 4,
+        "BuiltInData": null,
+        "BuiltInDocumentKey": null,
+        "TSQL": ""
+      }
+    },
+    "VSProperties": {},
+    "DeploymentItems": [],
+    "IsTestFragment": false,
+    "StopTestListOnFailure": false,
+    "InheritParentDataSource": false,
+    "BrowserType": 0,
+    "QcId": 0,
+    "QcFilePath": null,
+    "QcTestVersionStamp": 0,
+    "CustomProperty1": "DAILY",
+    "TestLinks": [],
+    "Description": "This tests for accuracy of addition ",
+    "Name": "Check_Substraction_Functionality",
+    "Owner": "abhishek@gtmcatalyst.com",
+    "Path": "Substraction\\Check_Substraction_Functionality.tstest",
+    "Priority": 0,
+    "TestType": 1,
+    "UniqueId": "5321a768-db73-4b89-95a5-1a3f5464305a",
+    "Id": "5321a768-db73-4b89-95a5-1a3f5464305a",
+    "ProjectId": "714c31be-65c5-4513-b9e3-593f2aee4320",
+    "Version": 200
+  }
+}
