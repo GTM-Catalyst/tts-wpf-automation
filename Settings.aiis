@@ -187,11 +187,23 @@
     "TpDefaultProjectId": -1,
     "RecordWpfWindowStateChanged": false,
     "PromptNameOnAddElement": true,
-    "DefaultWPFApplication": "C:\\Users\\abhis\\Downloads\\TestStudio-Training\\WPF-AUT\\WPF-AUT.exe",
+    "DefaultWPFApplication": "C:\\WPF-AUT\\WPF-AUT.exe",
     "UseLegacySilverlightFindLogic": false,
     "ProjectGuid": "714c31be-65c5-4513-b9e3-593f2aee4320",
-    "SourceControlRepository": null,
-    "IsOnline": false,
+    "SourceControlRepository": {
+      "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitRepositoryInfo",
+      "__value": {
+        "RemotePath": "https://github.com/GTM-Catalyst/tts-wpf-automation.git",
+        "ServerInfo": {
+          "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitServerInfo",
+          "__value": {
+            "ServerName": "https://github.com/GTM-Catalyst/tts-wpf-automation.git"
+          }
+        },
+        "ServerType": 2
+      }
+    },
+    "IsOnline": true,
     "ProjectLanguage": 1,
     "ProjectReferences": [
       "System",
@@ -207,8 +219,8 @@
       "Telerik.TestStudio.Translators.Common, Version=2021.1.330.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
       "System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
     ],
-    "ScheduleServerUrl": "http://localhost:8009/",
-    "IsScheduleServerRemote": false,
+    "ScheduleServerUrl": "http://192.168.1.17:8009/",
+    "IsScheduleServerRemote": true,
     "NotificationSettings": null,
     "WebComponents": true,
     "ProjectVersion": "2021.1.302.0",

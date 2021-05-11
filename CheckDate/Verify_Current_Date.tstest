@@ -315,7 +315,7 @@
     "SilverlightAppLocalDirectory": "",
     "SilverlightAppRecordLocal": false,
     "SilverlightAppOriginUri": null,
-    "WpfAppPath": null,
+    "WpfAppPath": "",
     "UseDefaultWpfAppPath": true,
     "TestAssembly": "DemoCalculatorTest.dll",
     "TestAssemblyPath": "bin",

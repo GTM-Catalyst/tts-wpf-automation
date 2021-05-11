@@ -1,10 +1,10 @@
 {
   "__type": "ArtOfTest.WebAii.Design.Execution.TestList",
   "__value": {
-    "TestListId": "19452b4e-6bd7-4267-b551-466ead6ea46b",
-    "Id": "19452b4e-6bd7-4267-b551-466ead6ea46b",
-    "TestListName": "Weekly Tests",
-    "CreationDate": "2021-05-11T15:20:32+05:30",
+    "TestListId": "05dffbd7-9c27-4112-8b8a-4ff762a4a28d",
+    "Id": "05dffbd7-9c27-4112-8b8a-4ff762a4a28d",
+    "TestListName": "DoDaily",
+    "CreationDate": "2021-05-11T20:57:09+05:30",
     "OwnerName": null,
     "Settings": {
       "__type": "ArtOfTest.WebAii.Core.Settings",
@@ -79,22 +79,19 @@
         "ScrollOnImageSearch": true
       }
     },
-    "Tests": [
-      {
-        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
-        "__value": {
-          "Id": "5b4c790d-6f7d-4137-b1c8-c56ab7d3a6c1",
-          "Path": "CheckAppVersion\\VersionNumberEntry.tstest",
-          "PathType": 0
-        }
-      }
-    ],
+    "Tests": [],
     "Filter": {
       "__type": "ArtOfTest.WebAii.Design.Execution.Filter",
       "__value": {
-        "Keys": [],
-        "Comparisons": [],
-        "Values": []
+        "Keys": [
+          "CustomProperty1"
+        ],
+        "Comparisons": [
+          "ArtOfTest.WebAii.Design.Execution.FilterComparison||Equals"
+        ],
+        "Values": [
+          "DAILY"
+        ]
       }
     },
     "ListType": 0,

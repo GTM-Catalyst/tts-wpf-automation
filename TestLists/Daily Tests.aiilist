@@ -45,7 +45,7 @@
         "Wpf": {
           "__type": "ArtOfTest.WebAii.Core.Settings+WpfSettings",
           "__value": {
-            "DefaultApplicationPath": "C:\\Users\\abhis\\Downloads\\TestStudio-Training\\WPF-AUT\\WPF-AUT.exe"
+            "DefaultApplicationPath": "C:\\WPF-AUT\\WPF-AUT.exe"
           }
         },
         "CreateLogFile": true,
@@ -59,8 +59,8 @@
         "SearchByImageFirst": false,
         "ExecuteCommandTimeout": 20000,
         "ExecutionDelay": 0,
-        "RerunFailedTests": false,
-        "UnexpectedDialogAction": 2,
+        "RerunFailedTests": true,
+        "UnexpectedDialogAction": 1,
         "AnnotateExecution": false,
         "AnnotationMode": 0,
         "RecordingMode": 0,
